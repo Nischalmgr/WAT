@@ -113,6 +113,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 10px;
+    overflow-x: scroll;
 }
 .leftone img{
     border-radius: 50%;
@@ -135,6 +136,8 @@ body {
     height: 5%;
     font-size: 25px;
     font-family: 'Mouse Memoirs', sans-serif;
+    overflow-x: scroll;
+
 }
 .mainContent{
     height: 95%;
@@ -160,11 +163,15 @@ body {
     padding: 0 10px;
     background-color: white;
     border: 1px black solid;
+    overflow-x: scroll;
 }
 #samebox img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+ol li{
+    list-style-position:inside;
 }
 
 /* Footer */
@@ -177,6 +184,7 @@ body {
 }
 
 .footer a {
+    position:sticky;
     color: white;
     
     margin: 0 10px;

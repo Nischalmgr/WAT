@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #d72222;
+    background-color: antiquewhite;
 }
 
 /* NAVBAR */
@@ -28,9 +28,47 @@ body {
     margin: 0;
     padding: 0;
 }
-
+ul.nav-links li:hover{
+    opacity:0.7;
+}
 /* Contact on far right */
 .navbar .contact {
     margin-left: auto; /* push contact to far right */
     cursor: pointer;
+}
+.navbar .contact:hover{
+     opacity:0.7;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-template-areas:"a b" "c d";
+    gap:20px;
+    width:100%;
+    height:auto;
+    padding:20px;
+}
+
+
+     
+.div1{grid-area:a;
+
+
+}
+img{
+    width:90%;
+    height:80%
+}
+.div2{grid-area:b;
+
+}
+.div3{grid-area:c;
+
+}
+.div4{grid-area:d;
+
+}
+h1,h2{
+    display:inline
 }
