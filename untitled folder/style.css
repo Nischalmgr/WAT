@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d72222;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color:white;
+    padding: 0 20px;
+}
+
+/* Logo */
+.navbar .logo {
+    width: 60px;
+    margin-right: 20px; /* space between logo and menu */
+}
+
+/* Menu next to logo */
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* space between menu items */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact on far right */
+.navbar .contact {
+    margin-left: auto; /* push contact to far right */
+    cursor: pointer;
+}

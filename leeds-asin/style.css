@@ -1,0 +1,183 @@
+/* Reset default styles */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Henny+Penny&family=Mouse+Memoirs&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Make body a flex container to push footer down */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+    background-color: #e6e646;
+}
+
+/* Header */
+.header {
+    position: relative;
+    padding: 20px;
+    background-color: #e6e646 ;
+    height: 100px; /* adjust height as needed */
+}
+
+/* Logo top-left */
+.logo {
+    position: absolute;
+    transform: translateX(-50%);
+      top: 40px;
+      transform: translateY(-50%);
+ 
+   
+    width: 100px;
+    height: auto;
+}
+
+/* Title centered horizontally */
+.title {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+/* Description top-right */
+.header-description {
+    position: absolute;
+    top: 60px; /* slightly below the title */
+    right: 20px;
+    font-family: 'Henny Penny', cursive;
+    font-size: 14px;
+    
+    margin: 0;
+}
+
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #b2a518;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: #141514;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+.nav-button:hover {
+    background-color: #606460;
+}
+
+/* Main container */
+.container {
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: flex;
+    flex: row;
+    width: 100%;
+    height: 110vh;
+    /* background-color: rgb(131, 131, 255); */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cleft{
+    /* background-color: beige; */
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftone{
+    height: 46%;
+    width: 85%;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+.leftone img{
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+.leftone p{
+    align-self: flex-start;
+}
+.cright{
+    /* background-color: chartreuse; */
+    height: 90%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+.solo-top{
+    padding-left: 8px;
+    height: 5%;
+    font-size: 25px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.mainContent{
+    height: 95%;
+    width: 98%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    gap: 8px;
+}   
+
+#samebox{
+    height: 49%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: white;
+    border: 1px black solid;
+}
+#samebox img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    
+    margin: 0 10px;
+}
