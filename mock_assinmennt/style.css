@@ -85,12 +85,13 @@ body {
 .container {
     font-family: 'Mouse Memoirs', sans-serif;
     display: flex;
-    flex: row;
+    
     width: 100%;
     height: 110vh;
     /* background-color: rgb(131, 131, 255); */
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    overflow-x: scroll;
 }
 
 .cleft{
@@ -188,4 +189,9 @@ ol li{
     color: white;
     
     margin: 0 10px;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column; /* stack items vertically */
+  }
 }
