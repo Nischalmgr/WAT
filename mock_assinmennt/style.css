@@ -131,6 +131,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2px;
+    overflow-y:scroll;
+ 
 }
 .solo-top{
     padding-left: 8px;
@@ -191,7 +193,7 @@ ol li{
     margin: 0 10px;
 }
 @media (max-width: 600px) {
-  .container {
+  .cleft , .cleft {
     flex-direction: column; /* stack items vertically */
   }
 }
