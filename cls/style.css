@@ -1,0 +1,15 @@
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    box-shadow:1px 1px 1px black;
+    height:80px;
+    align-items: center;
+    
+
+ 
+}
+body{
+
+}
